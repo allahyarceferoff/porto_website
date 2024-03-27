@@ -1,0 +1,390 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.cdnfonts.com/css/segoe-script');
+/* @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap'); */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header{
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/slide1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+nav{
+    height: 100px;
+    padding:25px 0px
+}
+
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    padding-left: 48px;
+    padding-right: 48px;
+   
+}
+
+
+.logo{
+    width: 100px;
+    height: 40px;
+}
+
+
+.containerleft{
+    display: flex;
+}
+
+
+.navlinks{ 
+   list-style: none;
+   margin-left: 3.28vw;
+   font-family: "Poppins", sans-serif;
+   display: flex;
+   gap: 30px;
+   
+}
+
+.navlinks  a{
+   text-decoration: none;
+   color: #000;
+   font-size: 14px;
+   font-weight: 700;
+}
+
+
+.bannerlayer{
+    
+    padding-left: 200px;
+    padding-top:100px;
+    width: 929px;
+    height: 332px;
+}
+
+.bannerlayer h2{
+    color: #777;
+    font-size: 40px;
+    font-weight: 400;
+    letter-spacing: -0.008em;
+    margin-bottom: 0.9rem;
+    font-family: 'Segoe Script', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.334; 
+}
+
+
+.bannerlayer h3,h4,h5,.price{
+    color: #222529; 
+    font-family: Poppins, sans-serif;
+    font-size: 2.5em;
+    line-height: 1;
+}
+.bannerlayer h3{
+    letter-spacing: 0.185em;
+}
+.bannerlayer h4{
+    font-size: 5.625em;
+    margin-bottom: 24px;
+}
+.bannerlayer h5{
+    font-size: 1.125em;
+    padding-top:7px;
+    margin-bottom:33px;
+    font-weight: 700;
+    display: block;
+}
+.bannerlayer.price{
+    padding: 5px 9px;
+    font-size: 31px;
+    font-weight: 700;
+    margin-left: 1.6rem;
+    vertical-align:middle;
+    background-color: #fff;
+}
+.bannerlayer .btn{
+    cursor: pointer;
+    padding: 1.1em 2.75em 1.125em;
+    border-color: #222529;
+    background-color: #222529;
+    color: #fff;
+    box-shadow: none;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: Poppins, sans-serif;
+    line-height: 1.429;
+    border: 1px solid transparent;
+    text-decoration: none;
+    display:inline-block
+}
+
+
+
+
+
+
+.category,.category-price{
+    max-width: none;
+    padding-left: 4.28vw;
+    padding-right: 4.28vw;
+    width: 100%;
+    padding-top: 6rem;
+    padding-bottom: 3rem;
+}
+
+.categoryname{
+    color: #302e2a;
+    font-size: 18px;
+    font-family: Poppins, sans-serif;
+    letter-spacing: -0.015em;
+    text-align: center;
+    margin: 0px 0px 24px;
+    padding: 5px 0px 0px;
+    line-height: 1.5;
+}
+.ct,.ct2{
+    display: flex;
+    gap:20px;
+    height: 342px;
+.categoryline{
+    width: 215px;
+    height:342px ;
+}
+}
+.pc{
+    width: 215px;
+    height: 215px;
+    cursor: pointer; 
+}
+.pcundertext{
+    text-align:center;
+    margin-top: 30px;
+    letter-spacing: -0.005em;
+    text-transform: uppercase;
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+}
+.productkindof{
+    height: 630px;
+    padding-bottom: 4rem;
+    padding-top: 4rem;
+    padding-left: 4.28vw;
+    padding-right: 4.28vw;
+    background-color: #f4f4f4;
+    
+}
+
+
+
+.prdct{
+    display: flex;
+    gap:25px;
+}
+
+
+
+img{ 
+    width: 330px;
+    height: 510px;
+}
+
+
+.category-price{
+    padding-top: 3rem;
+.pcundertext{
+    margin-top: 5px;
+    text-align: left;
+    font-size: 10px;
+    font-family: "Open Sans", sans-serif;
+    caret-color: #777;
+    margin-bottom: 5px;
+    cursor: pointer;
+   
+}
+
+.categories ,.prices,.pricesbefore{
+    font-size: 15px;
+    caret-color:#222529;
+    font-family: "Open Sans", sans-serif;
+    cursor: pointer;
+}
+.pricesbefore{
+    text-decoration: line-through;
+    caret-color: #999;
+    font-weight: 600;
+    cursor: pointer;
+
+}
+.prices{
+    font-size: 18px;
+    font-weight:700;
+    margin-left: 7px;
+    cursor: pointer;
+}
+.ct2{
+    border-bottom: #bbbbbb solid 1px;
+}
+}
+
+.boxes-container{
+    display: flex;
+    gap: 70px;
+    width: 100%;
+    height: 285px;
+    padding-left: 4.28vw;
+    padding-right: 4.28vw;
+    font-size: 14px;
+    font-family:"Open Sans", sans-serif;
+    border-bottom: #bbbbbb solid 1px;
+
+
+    .boxes-category{
+    text-align: center;
+    margin-bottom: 4rem;
+    line-height: 2;
+    width:300px ;
+    height: 300px;
+    padding: 0px 10px;
+    color: #222529;
+   }
+
+ i{
+    text-align:center;
+    font-size: 36px;
+    align-items: center;
+   
+ }
+
+ h3 {
+    font-weight: 700;
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+ }
+
+ h5{ 
+    font-size: 15px;
+    color: #7b858a;
+}
+
+ p{
+  font-size: 1.3rem;
+    line-height:2;
+    display: block;
+    color: #7b858a;
+    font-size: 13px;
+ }
+}
+
+
+
+.newsletter{
+   
+    width: 100%;
+    justify-content: space-between;
+    padding-left: 4.28vw;
+    padding-right: 4.28vw;
+    padding-top:40px;
+    padding-bottom:40px;
+    align-items: center;
+    display: flex;
+    
+}
+
+.newsletter h5{
+    font-size: 14px;
+    font-family: Poppins, sans-serif; 
+}
+
+
+.newsletter p{
+    font-size: 13px;
+    font-family:"Open Sans", sans-serif;
+    caret-color: #777;
+    
+}
+
+
+.newsletter .email{
+    display: block;
+    padding: 1.35em 1em 1.15em;
+    width: 100%;
+    height: 48px;
+    margin-left: 50px;
+    border: none;
+    color: #777;
+    background-color: #f4f4f4;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.2rem;
+}
+
+
+button{
+    cursor: pointer;
+    padding: 0.7em 1.244em 0.6em;
+    background-color: #222529;
+    color: #fff;
+    font-size: 11px;
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+    width: 89px;
+    height: 48px;  
+    border: none;
+}
+
+
+
+button:hover{background-color:#525252;}
+.submit{display: flex;}
+
+.socialmedia{
+    width: 134px;
+    display:flex;
+    gap: 25px;
+    i{ color: #525252;
+       display: inline-flex;
+       
+        font-size:18px
+     }
+}
+
+.footer{
+    border-top: 1px solid #e7e7e7;
+    padding-top: 6.4rem;
+    padding-bottom: 2.4rem;
+    height: 298px;
+    padding-left: 4.28vw;
+    padding-right: 4.28vw;
+}
+
+
+.footer-list{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    font-family: "Open Sans", sans-serif;
+    
+}
+
+.footer-list h5,p,a{
+    
+    color: #9e9e9e;
+    display: block;
+    padding-top: 10px;
+    font-size: 13px;
+}
+
+.footer-list h4{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.boxes-category{
+    color: inherit;
+    width: 241px;
+}
